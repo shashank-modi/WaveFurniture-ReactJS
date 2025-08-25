@@ -1,8 +1,57 @@
-# React + Vite
+# Wave Furniture - ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive furniture storefront built first with **HTML/CSS/JavaScript**, then refactored to **React** with reusable components and simple state management. Includes product listing, filters, cart, and a lightweight checkout preview.
 
-Currently, two official plugins are available:
+**Live demo (static):** [View Demo](https://shashank-modi.github.io/Web-Programming-Mini-Project/)  
+**React refactor:** can run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Features
+- Responsive UI for desktop, tablet, and mobile  
+- Product catalog with categories, search, and sorting  
+- Cart (add/remove/update quantities, subtotal)  
+- Persist cart to `localStorage`  
+- Reusable components (React version)  
+- Accessible markup (semantic HTML, labels, focus states)  
+- Zero backend required (can be extended to API later)  
+
+
+## Tech Stack
+- **Vanilla build:** HTML5, CSS3 (Flexbox/Grid), JavaScript (ES6+)  
+- **React build:** React + Vite (or CRA), Context/Reducer for cart state  
+
+
+## Getting Started (React version)
+
+### Prerequisites
+- Node.js 18+ and npm
+
+### Install
+```bash
+cd react
+npm install
+
+Run Dev Server
+
+npm run dev
+
+
+Deployment
+	•	GitHub Pages (vanilla version)
+	•	Vercel (React version, build command npm run build, output dir dist)
+
+
+Roadmap
+	•	API integration (products & checkout)
+	•	Auth (login, saved carts)
+	•	Wishlist feature
+	•	Pagination and lazy-loading
+	•	Unit tests & CI
+	•	Dark mode
+
+
+Credits
+
+Designed and built by Shashank Modi
+	•	Live (vanilla): https://shashank-modi.github.io/Web-Programming-Mini-Project/
+	•	React refactor: link coming soon
