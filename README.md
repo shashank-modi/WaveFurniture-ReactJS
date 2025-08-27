@@ -10,7 +10,6 @@ A modern, responsive furniture storefront built first with **HTML/CSS/JavaScript
 - Responsive UI for desktop, tablet, and mobile  
 - Product catalog with categories, search, and sorting  
 - Cart (add/remove/update quantities, subtotal)  
-- Persist cart to `localStorage`  
 - Reusable components (React version)  
 - Accessible markup (semantic HTML, labels, focus states)  
 - Zero backend required (can be extended to API later)  
