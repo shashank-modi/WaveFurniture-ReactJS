@@ -3,7 +3,7 @@
 A modern, responsive furniture storefront built first with **HTML/CSS/JavaScript**, then refactored to **React** with reusable components and simple state management. Includes product listing, filters, cart, and a lightweight checkout preview.
 
 **Live demo (static):** [View Demo](https://shashank-modi.github.io/Web-Programming-Mini-Project/)  
-**React refactor:** can run locally
+**React refactor:** [View Demo](https://wave-furniture-react-js.vercel.app)
 
 
 ## Features
